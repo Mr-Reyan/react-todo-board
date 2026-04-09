@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext } from 'react'
 import AddTask from './AddTask'
 import './Home.css'
-import { DragDropContext } from 'react-beautiful-dnd'
+import { DragDropContext } from '@hello-pangea/dnd'
 import { allTasksContext } from './context/context'
 import TodoColumn from './TodoColumn'
 import WorkingColumn from "./WorkingColumn";

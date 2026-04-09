@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { allTasksContext } from "./context/context";    
-import { Droppable, Draggable } from "react-beautiful-dnd";
+import { Droppable, Draggable } from "@hello-pangea/dnd";
 
 function CompletedColumn({ tasks, openTask, openEdit }) {
 
